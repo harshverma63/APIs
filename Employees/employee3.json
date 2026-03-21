@@ -7716,5 +7716,43 @@
       "name": "Alexander Walker"
     },
     "isManager": false
-  }
+  },
+  {
+  "id": 149,
+  "name": "Riya Kapoor",
+  "username": "riya.kapoor",
+  "email": "riya.kapoor@hrsolutions.com",
+  "image": "https://mockmind-api.uifaces.co/content/human/65.jpg",
+  "address": {
+    "street": "MG Road",
+    "suite": "Suite 210",
+    "city": "Gurgaon",
+    "zipcode": "122001",
+    "geo": {
+      "lat": "28.4595",
+      "lng": "77.0266"
+    }
+  },
+  "phone": "9876543210",
+  "website": "riyakapoorhr.com",
+  "company": {
+    "name": "PeopleFirst HR Solutions",
+    "catchPhrase": "Building better workplaces",
+    "bs": "optimize workforce management"
+  },
+  "employeeId": "HR0149",
+  "password": "hr@secure",
+  "designation": "HR Business Partner",
+  "department": "Human Resources",
+  "salary": 85000,
+  "currency": "INR",
+  "employmentType": "Full-time",
+  "status": "Active",
+  "joinDate": "2021-06-15",
+  "reportsTo": {
+    "id": 120,
+    "name": "Anjali Mehta"
+  },
+  "isManager": true
+}
 ]
