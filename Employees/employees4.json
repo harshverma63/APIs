@@ -7719,9 +7719,9 @@
   },
   {
     "id": 149,
-    "name": "Sany Paul",
-    "username": "sany.paul",
-    "email": "sany.paul@hrsolutions.com",
+    "name": "Sanny Paul",
+    "username": "sanny.paul",
+    "email": "sanny.paul@hrsolutions.com",
     "image": "https://mockmind-api.uifaces.co/content/human/113.jpg",
     "address": {
       "street": "MG Road",
@@ -7734,7 +7734,7 @@
       }
     },
     "phone": "9876543210",
-    "website": "sanypaul.com",
+    "website": "sannypaul.com",
     "company": {
       "name": "PeopleFirst HR Solutions",
       "catchPhrase": "Building better workplaces",
