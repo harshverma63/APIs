@@ -7719,10 +7719,10 @@
   },
   {
     "id": 149,
-    "name": "Riya Kapoor",
-    "username": "riya.kapoor",
-    "email": "riya.kapoor@hrsolutions.com",
-    "image": "https://mockmind-api.uifaces.co/content/human/65.jpg",
+    "name": "Sany Paul",
+    "username": "sany.paul",
+    "email": "sany.paul@hrsolutions.com",
+    "image": "https://mockmind-api.uifaces.co/content/human/113.jpg",
     "address": {
       "street": "MG Road",
       "suite": "Suite 210",
@@ -7734,14 +7734,14 @@
       }
     },
     "phone": "9876543210",
-    "website": "riyakapoorhr.com",
+    "website": "sanypaul.com",
     "company": {
       "name": "PeopleFirst HR Solutions",
       "catchPhrase": "Building better workplaces",
       "bs": "optimize workforce management"
     },
     "employeeId": "HR0149",
-    "password": "hr",
+    "password": "hr@secure",
     "designation": "HR Business Partner",
     "department": "Human Resources",
     "salary": 85000,
