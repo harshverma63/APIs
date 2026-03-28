@@ -4,10 +4,35 @@
     "project": "Office Task Management System",
     "created": "2026-03-28",
     "employeesAPI": "https://raw.githubusercontent.com/harshverma63/APIs/refs/heads/main/Employees/employees4.json",
-    "statuses": ["active", "under production", "QA", "delivered", "canceled"],
-    "priorities": ["low", "medium", "high", "critical"],
-    "nonEditableFields": ["id", "subject", "description", "arrivalTime"],
-    "editableFields": ["dueDate", "requiredHours", "assignedTo", "status", "priority", "progress", "tags", "comments"]
+    "statuses": [
+      "active",
+      "under production",
+      "QA",
+      "delivered",
+      "canceled"
+    ],
+    "priorities": [
+      "low",
+      "medium",
+      "high",
+      "critical"
+    ],
+    "nonEditableFields": [
+      "id",
+      "subject",
+      "description",
+      "arrivalTime"
+    ],
+    "editableFields": [
+      "dueDate",
+      "requiredHours",
+      "assignedTo",
+      "status",
+      "priority",
+      "progress",
+      "tags",
+      "comments"
+    ]
   },
   "tasks": [
     {
@@ -28,14 +53,19 @@
       "status": "under production",
       "priority": "high",
       "progress": 45,
-      "tags": ["finance", "reporting"],
+      "tags": [
+        "finance",
+        "reporting"
+      ],
       "comments": [
         {
           "author": "Patricia Lebsack",
           "text": "Started compiling data from all departments.",
           "timestamp": "2026-03-10T10:30:00Z"
         }
-      ]
+      ],
+      "dueDateDate": "05-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-002",
@@ -55,14 +85,19 @@
       "status": "QA",
       "priority": "high",
       "progress": 90,
-      "tags": ["HR", "documentation"],
+      "tags": [
+        "HR",
+        "documentation"
+      ],
       "comments": [
         {
           "author": "Clementina DuBuque",
           "text": "Draft sent to HR for review.",
           "timestamp": "2026-03-20T14:00:00Z"
         }
-      ]
+      ],
+      "dueDateDate": "28-Mar-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-003",
@@ -82,12 +117,17 @@
       "status": "under production",
       "priority": "critical",
       "progress": 30,
-      "tags": ["design", "frontend"],
-      "comments": []
+      "tags": [
+        "design",
+        "frontend"
+      ],
+      "comments": [],
+      "dueDateDate": "20-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-004",
-      "subject": "Weekly Team Sync Agenda — April",
+      "subject": "Weekly Team Sync Agenda \u2014 April",
       "description": "Prepare and distribute recurring weekly sync agendas for the month of April. Coordinate with team leads to gather agenda points by each Thursday EOD.",
       "arrivalTime": "2026-03-07T08:00:00Z",
       "dueDate": "2026-04-30T10:00:00Z",
@@ -103,8 +143,13 @@
       "status": "active",
       "priority": "low",
       "progress": 0,
-      "tags": ["admin", "meetings"],
-      "comments": []
+      "tags": [
+        "admin",
+        "meetings"
+      ],
+      "comments": [],
+      "dueDateDate": "30-Apr-2026",
+      "dueDateTime": "10:00 AM"
     },
     {
       "id": "TASK-005",
@@ -124,18 +169,24 @@
       "status": "under production",
       "priority": "critical",
       "progress": 55,
-      "tags": ["backend", "integration", "payments"],
+      "tags": [
+        "backend",
+        "integration",
+        "payments"
+      ],
       "comments": [
         {
           "author": "Dennis Schulist",
           "text": "Webhook handlers implemented. Testing in sandbox.",
           "timestamp": "2026-03-22T16:00:00Z"
         }
-      ]
+      ],
+      "dueDateDate": "10-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-006",
-      "subject": "Social Media Content Calendar — April",
+      "subject": "Social Media Content Calendar \u2014 April",
       "description": "Plan and schedule social media posts for all company channels (LinkedIn, Twitter, Instagram) for the month of April. Align posts with the upcoming product launch.",
       "arrivalTime": "2026-03-10T09:00:00Z",
       "dueDate": "2026-03-31T17:00:00Z",
@@ -151,14 +202,19 @@
       "status": "delivered",
       "priority": "medium",
       "progress": 100,
-      "tags": ["marketing", "social media"],
+      "tags": [
+        "marketing",
+        "social media"
+      ],
       "comments": [
         {
           "author": "Sophia Martinez",
           "text": "All posts scheduled on Buffer.",
           "timestamp": "2026-03-28T09:00:00Z"
         }
-      ]
+      ],
+      "dueDateDate": "31-Mar-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-007",
@@ -178,8 +234,14 @@
       "status": "active",
       "priority": "high",
       "progress": 10,
-      "tags": ["DevOps", "finance", "cloud"],
-      "comments": []
+      "tags": [
+        "DevOps",
+        "finance",
+        "cloud"
+      ],
+      "comments": [],
+      "dueDateDate": "08-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-008",
@@ -199,18 +261,23 @@
       "status": "QA",
       "priority": "high",
       "progress": 85,
-      "tags": ["marketing", "content"],
+      "tags": [
+        "marketing",
+        "content"
+      ],
       "comments": [
         {
           "author": "Clementine Bauch",
           "text": "Script reviewed by product team. Minor edits pending.",
           "timestamp": "2026-03-25T11:00:00Z"
         }
-      ]
+      ],
+      "dueDateDate": "01-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-009",
-      "subject": "Database Schema Migration — v3 to v4",
+      "subject": "Database Schema Migration \u2014 v3 to v4",
       "description": "Execute the planned database schema migration from v3 to v4. Includes adding new indexes, renaming legacy columns, and running backfill scripts. Zero downtime required.",
       "arrivalTime": "2026-03-12T08:00:00Z",
       "dueDate": "2026-04-15T06:00:00Z",
@@ -226,12 +293,18 @@
       "status": "active",
       "priority": "critical",
       "progress": 5,
-      "tags": ["backend", "database", "DevOps"],
-      "comments": []
+      "tags": [
+        "backend",
+        "database",
+        "DevOps"
+      ],
+      "comments": [],
+      "dueDateDate": "15-Apr-2026",
+      "dueDateTime": "06:00 AM"
     },
     {
       "id": "TASK-010",
-      "subject": "Vendor Contract Renewal — Office Supplies",
+      "subject": "Vendor Contract Renewal \u2014 Office Supplies",
       "description": "Review and renew the annual contract with StaticSpark Ltd for office supply procurement. Negotiate for a 5% discount given the increased order volume from last year.",
       "arrivalTime": "2026-03-12T10:30:00Z",
       "dueDate": "2026-03-30T17:00:00Z",
@@ -247,14 +320,19 @@
       "status": "delivered",
       "priority": "low",
       "progress": 100,
-      "tags": ["admin", "procurement"],
+      "tags": [
+        "admin",
+        "procurement"
+      ],
       "comments": [
         {
           "author": "Olivia Garcia",
           "text": "Contract signed. 7% discount secured.",
           "timestamp": "2026-03-27T15:30:00Z"
         }
-      ]
+      ],
+      "dueDateDate": "30-Mar-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-011",
@@ -274,8 +352,14 @@
       "status": "active",
       "priority": "high",
       "progress": 0,
-      "tags": ["mobile", "frontend", "backend"],
-      "comments": []
+      "tags": [
+        "mobile",
+        "frontend",
+        "backend"
+      ],
+      "comments": [],
+      "dueDateDate": "25-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-012",
@@ -295,8 +379,13 @@
       "status": "active",
       "priority": "medium",
       "progress": 20,
-      "tags": ["HR", "admin"],
-      "comments": []
+      "tags": [
+        "HR",
+        "admin"
+      ],
+      "comments": [],
+      "dueDateDate": "02-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-013",
@@ -316,8 +405,13 @@
       "status": "under production",
       "priority": "medium",
       "progress": 40,
-      "tags": ["marketing", "SEO"],
-      "comments": []
+      "tags": [
+        "marketing",
+        "SEO"
+      ],
+      "comments": [],
+      "dueDateDate": "12-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-014",
@@ -337,12 +431,18 @@
       "status": "active",
       "priority": "medium",
       "progress": 15,
-      "tags": ["admin", "documentation", "operations"],
-      "comments": []
+      "tags": [
+        "admin",
+        "documentation",
+        "operations"
+      ],
+      "comments": [],
+      "dueDateDate": "01-May-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-015",
-      "subject": "User Authentication Refactor — JWT to OAuth2",
+      "subject": "User Authentication Refactor \u2014 JWT to OAuth2",
       "description": "Refactor the existing JWT-based authentication system to OAuth2 with support for Google and Microsoft SSO. Update all related API endpoints and session handling logic.",
       "arrivalTime": "2026-03-16T08:00:00Z",
       "dueDate": "2026-04-18T17:00:00Z",
@@ -358,18 +458,23 @@
       "status": "under production",
       "priority": "critical",
       "progress": 60,
-      "tags": ["backend", "security"],
+      "tags": [
+        "backend",
+        "security"
+      ],
       "comments": [
         {
           "author": "Benjamin White",
           "text": "Google SSO done. Microsoft in progress.",
           "timestamp": "2026-03-24T17:00:00Z"
         }
-      ]
+      ],
+      "dueDateDate": "18-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-016",
-      "subject": "Quarterly Newsletter — Internal",
+      "subject": "Quarterly Newsletter \u2014 Internal",
       "description": "Write and design the Q1 internal company newsletter. Include highlights from each department, upcoming events, and a note from the CEO. Distribute via email by March 31.",
       "arrivalTime": "2026-03-17T09:00:00Z",
       "dueDate": "2026-03-31T12:00:00Z",
@@ -385,18 +490,24 @@
       "status": "QA",
       "priority": "medium",
       "progress": 95,
-      "tags": ["marketing", "content", "HR"],
+      "tags": [
+        "marketing",
+        "content",
+        "HR"
+      ],
       "comments": [
         {
           "author": "Ava Anderson",
           "text": "Sent to CEO for final approval.",
           "timestamp": "2026-03-27T10:00:00Z"
         }
-      ]
+      ],
+      "dueDateDate": "31-Mar-2026",
+      "dueDateTime": "12:00 PM"
     },
     {
       "id": "TASK-017",
-      "subject": "Load Testing — Checkout Flow",
+      "subject": "Load Testing \u2014 Checkout Flow",
       "description": "Perform load testing on the checkout flow using k6. Simulate 5,000 concurrent users and identify bottlenecks. Deliver a report with recommendations before the April launch.",
       "arrivalTime": "2026-03-17T11:00:00Z",
       "dueDate": "2026-04-08T17:00:00Z",
@@ -412,8 +523,14 @@
       "status": "active",
       "priority": "high",
       "progress": 0,
-      "tags": ["QA", "backend", "performance"],
-      "comments": []
+      "tags": [
+        "QA",
+        "backend",
+        "performance"
+      ],
+      "comments": [],
+      "dueDateDate": "08-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-018",
@@ -433,14 +550,19 @@
       "status": "canceled",
       "priority": "low",
       "progress": 0,
-      "tags": ["admin", "facilities"],
+      "tags": [
+        "admin",
+        "facilities"
+      ],
       "comments": [
         {
           "author": "Isabella Jackson",
-          "text": "Canceled — remote-first policy extended through Q2.",
+          "text": "Canceled \u2014 remote-first policy extended through Q2.",
           "timestamp": "2026-03-22T09:00:00Z"
         }
-      ]
+      ],
+      "dueDateDate": "03-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-019",
@@ -460,8 +582,13 @@
       "status": "active",
       "priority": "medium",
       "progress": 5,
-      "tags": ["frontend", "documentation"],
-      "comments": []
+      "tags": [
+        "frontend",
+        "documentation"
+      ],
+      "comments": [],
+      "dueDateDate": "22-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-020",
@@ -481,8 +608,14 @@
       "status": "active",
       "priority": "critical",
       "progress": 10,
-      "tags": ["legal", "compliance", "security"],
-      "comments": []
+      "tags": [
+        "legal",
+        "compliance",
+        "security"
+      ],
+      "comments": [],
+      "dueDateDate": "30-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-021",
@@ -502,8 +635,14 @@
       "status": "under production",
       "priority": "high",
       "progress": 50,
-      "tags": ["research", "sales", "strategy"],
-      "comments": []
+      "tags": [
+        "research",
+        "sales",
+        "strategy"
+      ],
+      "comments": [],
+      "dueDateDate": "07-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-022",
@@ -523,12 +662,17 @@
       "status": "active",
       "priority": "high",
       "progress": 20,
-      "tags": ["DevOps", "mobile"],
-      "comments": []
+      "tags": [
+        "DevOps",
+        "mobile"
+      ],
+      "comments": [],
+      "dueDateDate": "14-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-023",
-      "subject": "Customer Satisfaction Survey — Q1",
+      "subject": "Customer Satisfaction Survey \u2014 Q1",
       "description": "Design, distribute, and analyze the Q1 customer satisfaction survey (CSAT). Target a minimum of 200 responses. Summarize key themes and present findings to the product team.",
       "arrivalTime": "2026-03-22T09:00:00Z",
       "dueDate": "2026-04-15T17:00:00Z",
@@ -544,12 +688,17 @@
       "status": "active",
       "priority": "medium",
       "progress": 5,
-      "tags": ["research", "customer success"],
-      "comments": []
+      "tags": [
+        "research",
+        "customer success"
+      ],
+      "comments": [],
+      "dueDateDate": "15-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-024",
-      "subject": "Dark Mode Implementation — Web App",
+      "subject": "Dark Mode Implementation \u2014 Web App",
       "description": "Implement a system-aware dark mode for the web application. Use CSS custom properties for theming. Ensure all components in the design system are covered and tested across browsers.",
       "arrivalTime": "2026-03-24T09:00:00Z",
       "dueDate": "2026-04-28T17:00:00Z",
@@ -565,8 +714,13 @@
       "status": "active",
       "priority": "medium",
       "progress": 0,
-      "tags": ["frontend", "design"],
-      "comments": []
+      "tags": [
+        "frontend",
+        "design"
+      ],
+      "comments": [],
+      "dueDateDate": "28-Apr-2026",
+      "dueDateTime": "05:00 PM"
     },
     {
       "id": "TASK-025",
@@ -586,8 +740,14 @@
       "status": "active",
       "priority": "critical",
       "progress": 0,
-      "tags": ["finance", "reporting", "sales"],
-      "comments": []
+      "tags": [
+        "finance",
+        "reporting",
+        "sales"
+      ],
+      "comments": [],
+      "dueDateDate": "04-Apr-2026",
+      "dueDateTime": "05:00 PM"
     }
   ]
 }
